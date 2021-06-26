@@ -9,3 +9,42 @@
   justify-content:space-around;
   align-items: center;
 }
+
+.number-unmarked {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.number-unmarked:hover {
+  color: green;
+  border-color: green;
+}
+
+
+.number-marked {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: green;
+}
+
+/*.number-marked:hover {*/
+/*  color: rgb(35, 124, 151);*/
+/*  border-color: rgb(35, 124, 151);*/
+/*}*/
