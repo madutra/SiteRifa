@@ -1,0 +1,11 @@
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
