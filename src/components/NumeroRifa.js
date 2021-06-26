@@ -11,7 +11,7 @@ function NumeroRifa({numeroRifaObj}) {
           return;
 
         // setPreenchido(! preenchido);
-        window.open(`${config.whatsapp_url}${config.whatsapp_frase}`, '_blank');
+        window.open(`${config.whatsapp_url}?text=${config.whatsapp_frase.replace('{numero_vem_aqui}', numeroRifaObj.codigo)}`, '_blank');
     }
 
     return(

@@ -27,10 +27,7 @@ function GridRifa() {
      * PREENCHER ESTE ARRAY COM QUEM JÁ PAGOU (ESTÁ PREENCHIDO)
      *
      */
-    const filled = [
-        3,
-        5
-    ];
+    const filled = config.preenchidos;
 
     const classes = useStyles();
 
