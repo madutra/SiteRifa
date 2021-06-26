@@ -39,9 +39,10 @@
   border-radius: 50%;
   border: 1px solid black;
   margin-bottom: 20px;
-  cursor: pointer;
+  cursor: not-allowed;
   font-size: 25px;
   background-color: green;
+  color: white;
 }
 
 /*.number-marked:hover {*/
