@@ -1,9 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./index.css";
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import GridRifa from '../../components/GridRifa';
+import Header from "../../components/Header";
+import Titulo from "../../components/Titulo";
+import Foto from "../../components/Foto";
+import Footer from "../../components/Footer";
 
 const PagesHome = () => {
   return (
@@ -11,26 +14,21 @@ const PagesHome = () => {
       <CssBaseline />
 
       <Container maxWidth>
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '10vh' }} />
-        <Container className="cabeçalho"> 
-          <div className="titulo"><h1 >Rifa Caio</h1></div>
-          <div className="foto">
-            <h1>Foto caio</h1>
-            <h1> Descrição Rifa</h1>
-          </div>
+        <Header />
+
+        <Container className="cabeçalho">
+          <Titulo />
+
+          <Foto />
+
           <div style={{display: "flex", justifyContent: "center"}}>
             <h1>________________________________________________________</h1>
           </div>
-          <div className="titulo">
-            <h3> Selecione os números que deseja da rifa: </h3>
-          </div>
         </Container>
 
-        <Container className="grid">
-          <GridRifa />
-        </Container>
+        <GridRifa />
 
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '10vh' }} />
+        <Footer />
       </Container>
     </React.Fragment>
   );
