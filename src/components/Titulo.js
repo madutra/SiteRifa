@@ -1,11 +1,12 @@
 import React from 'react';
+import mainImage from '../assets/Titulo.png'
 
 function Titulo() {
     return(
         <div className="titulo">
-            <h1 >Rifa Caio</h1>
-        </div>
+            <img src={mainImage} alt="tituloImage"/>
+            
+            </div>
     );
 }
-
 export default Titulo;

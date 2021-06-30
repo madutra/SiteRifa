@@ -13,7 +13,7 @@ const PagesHome = () => {
     <React.Fragment>
       <CssBaseline />
 
-      <Container maxWidth>
+      <Container style={{paddingLeft: 0, paddingRight:0}}>
         <Header />
 
         <Container className="cabeçalho">
@@ -21,9 +21,7 @@ const PagesHome = () => {
 
           <Foto />
 
-          <div style={{display: "flex", justifyContent: "center"}}>
-            <h1>________________________________________________________</h1>
-          </div>
+          <div className="divisao"/>
         </Container>
 
         <GridRifa />

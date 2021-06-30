@@ -7,8 +7,12 @@ import { config } from '../config';
 const useStyles = makeStyles((theme) => (
     {
         root: {
-            flexGrow: 1,
-            marginBottom: "20px"
+          display: "flex",
+          flexWrap: "wrap",
+          flexDirection: "row",
+          justifyContent: "center",
+          marginTop: "15px",
+          marginBottom: "15px"
         },
 
         paper: {
@@ -63,8 +67,8 @@ function GridRifa() {
             </div>
 
             <div className={classes.root}>
-                <Grid container spacing={1}>
-                <Rifas />
+                <Grid container sm="auto">
+                  <Rifas />
                 </Grid>
             </div>
         </Container>
