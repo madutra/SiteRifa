@@ -67,7 +67,7 @@ function GridRifa() {
             </div>
 
             <div className={classes.root}>
-                <Grid container sm="auto">
+                <Grid justify='flex-start' container spacing={1}>
                   <Rifas />
                 </Grid>
             </div>
