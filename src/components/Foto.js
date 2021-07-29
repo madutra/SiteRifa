@@ -25,9 +25,15 @@ function Foto() {
                 informações do comprador.
                 <br></br> 
                 <br></br>
+                Cada número está no valor de R$ 10,00.
                 A legenda dos números é:  
             </h2>
             <img src={legendaImage} alt="legendaImagem" />
+            <br></br>
+            <br></br>
+            <h2>
+                O prêmio da Rifa é: O valor de R$ 500,00 para o número ganhador.
+            </h2>
         </div>
     );
 }

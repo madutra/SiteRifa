@@ -13,7 +13,7 @@ const PagesHome = () => {
     <React.Fragment>
       <CssBaseline />
 
-      <Container style={{paddingLeft: 0, paddingRight:0, backgroundColor: "rgb(221,221,221)"}}>
+      <Container style={{paddingLeft: 0, paddingRight:0, backgroundColor: "rgb(221,221,221)", maxWidth: "100%"}}>
         <Header />
 
         <Container className="cabeçalho">
