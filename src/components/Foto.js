@@ -12,7 +12,7 @@ function Foto() {
                 <br></br>
                 <br></br>
                 Caio Galdino está lutando fazendo fisioterapia, então os familiares e amigos resolveram fazer uma rifa para ajudá-lo a passar por esse momento de complicação!
-                A rifa terá como prêmio um PIX de R$ 500,00.
+                A rifa terá como prêmio um PIX de R$ 400,00.
                 <br></br>
                 <br></br>
                 Se você tiver interesse de comprar, basta seguir o tutorial abaixo: 
