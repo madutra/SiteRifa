@@ -1,6 +1,7 @@
 import React from 'react';
 import mainImage from '../assets/Caio.png'
 import legendaImage from '../assets/legenda.png'
+import premioImage from '../assets/premio.png'
 
 function Foto() {
     return(
@@ -17,6 +18,8 @@ function Foto() {
                 Se você tiver interesse de comprar, basta seguir o tutorial abaixo: 
             </h1>
 
+            <div className="divisao"/>
+            
             <h2>
                 Caso deseje comprar 1 número somente: clicar no número desejado e então informar no wpp as informações do comprador.
                 <br></br>
@@ -32,8 +35,9 @@ function Foto() {
             <br></br>
             <br></br>
             <h2>
-                O prêmio da Rifa é: O valor de R$ 500,00 para o número ganhador.
+                O prêmio da Rifa é: O valor de R$ 400,00 para o número ganhador.
             </h2>
+            <img src={premioImage} alt="premioImagem" />
         </div>
     );
 }
