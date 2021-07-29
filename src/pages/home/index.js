@@ -13,12 +13,12 @@ const PagesHome = () => {
     <React.Fragment>
       <CssBaseline />
 
-      <Container style={{paddingLeft: 0, paddingRight:0}}>
+      <Container style={{paddingLeft: 0, paddingRight:0, backgroundColor: "rgb(221,221,221)"}}>
         <Header />
 
         <Container className="cabeçalho">
           <Titulo />
-
+          <div className="divisao"/>
           <Foto />
 
           <div className="divisao"/>

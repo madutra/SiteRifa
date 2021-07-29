@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 
 function Footer() {
     return(
-        <Typography component="div" style={{ backgroundColor: 'rgb(70,130,180)', 
+        <Typography component="div" style={{ backgroundColor: 'rgb(0,0,0)', 
         width: "100%",
         height: '5vh', 
         borderTopRightRadius: "5px", 

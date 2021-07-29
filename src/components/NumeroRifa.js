@@ -15,7 +15,7 @@ function NumeroRifa({numeroRifaObj}) {
     }
 
     return(
-        <Grid item xs={1}>
+        <Grid item xs={1} className="GridNumber">
             <div className={preenchido ? "number-marked" : "number-unmarked"}
                  onClick={toggleSelected}
                  title={preenchido ? "Este número já foi selecionado" : "Clique para escolher este número"}>

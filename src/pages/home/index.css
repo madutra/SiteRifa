@@ -4,11 +4,18 @@
   align-items: center;
   margin-top: 20px;
 }
+.texto {
+  display: flex;
+  justify-content: baseline;
+  font-size: 20px;
+  margin-left: 15px;
+}
 
 .foto {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  justify-content: center;
   align-items: center;
+  text-align: -webkit-center;
 }
 
 .divisao {
@@ -16,6 +23,8 @@
   border-radius: 5px;
   height: 10px;
   min-width: -webkit-fill-available;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .number-unmarked {
@@ -28,7 +37,7 @@
   text-align: center;
   background-color: #fff;
   border-radius: 25px;
-  border-width: 2px !important;
+  border-width: 3px !important;
   border-style: solid;
   display: flex;
   justify-content: center;
@@ -62,6 +71,22 @@
 /*}*/
 
 @media screen and (max-width: 768px) {
+  .GridNumber {
+    margin-right: 30px !important;
+    margin-left: 9px !important;
+  }
+
+  .legendaImagem {
+    zoom: 60%;
+  }
+
+  .texto {
+    display: flex;
+    justify-content: baseline;
+    font-size: 20px;
+    margin-left: 0;
+  }
+
   .number-unmarked {
     width: 45px;
     height: 45px;
@@ -71,7 +96,7 @@
     height: 45px;
   }
   .foto {
-    display: grid;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
