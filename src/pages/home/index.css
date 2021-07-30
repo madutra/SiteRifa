@@ -108,5 +108,13 @@
     height: 10px;
     min-width: -webkit-fill-available;
   }
+  .number-marked {
+    width: 45px;
+    height: 45px;
+  }
+  .number-marked:hover {
+    width: 45px;
+    height: 45px;
+  }
 
 }
